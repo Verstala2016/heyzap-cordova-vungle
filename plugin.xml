@@ -67,14 +67,6 @@
 
   <!-- Android -->
   <platform name="android">
-
-    <!-- Native app manifest -->
-    <config-file target="AndroidManifest.xml" parent="/*">
-      <uses-permission android:name="android.permission.INTERNET" />
-      <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
-      <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
-    </config-file>
-    <!-- / Native app manifest -->
     
     <!-- Native app manifest - Application Tag -->
     <config-file target="AndroidManifest.xml" parent="/manifest/application">
