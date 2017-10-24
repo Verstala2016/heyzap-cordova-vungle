@@ -72,19 +72,10 @@
     <config-file target="AndroidManifest.xml" parent="/manifest/application">
 		<activity android:name="com.vungle.publisher.VideoFullScreenAdActivity" android:configChanges="keyboardHidden|orientation|screenSize|screenLayout|smallestScreenSize" android:theme="@android:style/Theme.NoTitleBar.Fullscreen"/>
 		<activity android:name="com.vungle.publisher.MraidFullScreenAdActivity" android:configChanges="keyboardHidden|orientation|screenSize|screenLayout|smallestScreenSize" android:theme="@android:style/Theme.Translucent.NoTitleBar.Fullscreen"/>
-		<activity android:name="com.vungle.publisher.FlexViewAdActivity" android:configChanges="keyboardHidden|orientation|screenSize|screenLayout|smallestScreenSize" android:theme="@android:style/Theme.Translucent.NoTitleBar.Fullscreen"/>
     </config-file>
     <!-- / Native app manifest - Application Tag -->
     
     <!-- Vungle SDK -->
-    <source-file src="src/android/adapter-rxjava-2.2.0.jar" target-dir="libs" />
-    <source-file src="src/android/converter-gson-2.2.0.jar" target-dir="libs" />
-    <source-file src="src/android/eventbus-2.2.1.jar" target-dir="libs" />
-    <source-file src="src/android/gson-2.7.jar" target-dir="libs" />
-    <source-file src="src/android/okhttp-3.6.0.jar" target-dir="libs" />
-    <source-file src="src/android/okio-1.11.0.jar" target-dir="libs" />
-    <source-file src="src/android/retrofit-2.2.0.jar" target-dir="libs" />
-    <source-file src="src/android/rxjava-1.2.0.jar" target-dir="libs" />
     <source-file src="src/android/dagger-2.7.jar" target-dir="libs" />
     <source-file src="src/android/javax.inject-1.jar" target-dir="libs" />
     <source-file src="src/android/publisher-sdk-android-5.3.0.jar" target-dir="libs" />
