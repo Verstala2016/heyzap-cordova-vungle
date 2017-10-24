@@ -5,8 +5,8 @@ This is a custom Apache Cordova plugin for Vungle to be used with the [Heyzap Co
 
 SDK Verisons
 ------------
-- iOS: 4.0.9
-- Android: 4.0.2
+- iOS: 5.3.0
+- Android: 5.3.0
 
 Installing:
 ```
