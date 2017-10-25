@@ -1,0 +1,7 @@
+framework module VungleSDK {
+  umbrella header "VungleSDK.h"
+
+
+  export *
+  module * { export * }
+}
