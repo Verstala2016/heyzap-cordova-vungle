@@ -28,14 +28,14 @@
     <!-- / Hooks -->
     
     <!-- Vungle SDK -->
-    <resource-file src="src/ios/VungleSDK.embeddedframework/Resources/__vungle.db" />
-    <resource-file src="src/ios/VungleSDK.embeddedframework/Resources/vg_close.png" />
-    <resource-file src="src/ios/VungleSDK.embeddedframework/Resources/vg_cta.png" />
-    <resource-file src="src/ios/VungleSDK.embeddedframework/Resources/vg_mute_off.png" />
-    <resource-file src="src/ios/VungleSDK.embeddedframework/Resources/vg_mute_on.png" />
-    <resource-file src="src/ios/VungleSDK.embeddedframework/Resources/vg_privacy.png" />
+    <resource-file src="src/ios/VungleSDK.framework/Resources/__vungle.db" />
+    <resource-file src="src/ios/VungleSDK.framework/Resources/vg_close.png" />
+    <resource-file src="src/ios/VungleSDK.framework/Resources/vg_cta.png" />
+    <resource-file src="src/ios/VungleSDK.framework/Resources/vg_mute_off.png" />
+    <resource-file src="src/ios/VungleSDK.framework/Resources/vg_mute_on.png" />
+    <resource-file src="src/ios/VungleSDK.framework/Resources/vg_privacy.png" />
 
-    <framework src="src/ios/VungleSDK.embeddedframework/VungleSDK.framework" custom="true" compiler-flags="-fmodules" />
+    <framework src="src/ios/VungleSDK.framework" custom="true" compiler-flags="-fmodules" />
     <!-- / Vungle SDK -->
 
     <!-- External Frameworks -->
